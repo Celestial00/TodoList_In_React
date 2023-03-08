@@ -1,0 +1,47 @@
+.TaskElement{
+
+    width: 1720px;
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.Element-text{
+
+    display: flex;
+    /* border: 2px solid black ; */
+
+
+}
+
+.Element-text input{
+
+    width: 600px;
+    height: 40px;
+    border: 1.3px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 1.2em;
+
+}
+
+.Element-text input:disabled{
+
+    background-color: white;
+
+}
+
+.Element-text button{
+
+    width: 70px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+

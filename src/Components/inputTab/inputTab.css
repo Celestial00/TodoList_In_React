@@ -1,0 +1,66 @@
+.InputTab{
+
+    width: 1720px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* border: 2px solid black; */
+
+}
+
+.InputTab .container{
+
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid black; */
+
+}
+
+.InputTab .Input {
+
+    margin-right: 30px ;
+
+}
+
+
+.InputTab .Input input{
+
+    width: 600px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0px 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px 2px;
+    font-size: 1.2em;
+    display: inline-block;
+
+
+}
+
+.InputTab .btn button{
+
+    padding: 14px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
