@@ -50,7 +50,7 @@ export default function TaskElement(props) {
             <div className='Element-text'>
                 
                 {/* <h2>{props}</h2> */}
-                <input value={NewData}  disabled={Editable} onChange={EditInput}/>
+                <input value={props.Data}  disabled={Editable} onChange={EditInput}/>
                 <button onClick={EditHandler}>{innerText}</button>
                 <button onClick={clickHandler}>X</button>
 
